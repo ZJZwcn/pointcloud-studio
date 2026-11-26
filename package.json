@@ -1,0 +1,23 @@
+{
+  "name": "pointcloud-studio",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "dev:mock": "vite --mode mock --host 127.0.0.1",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "start": "node server/index.mjs",
+    "icon": "node scripts/make-favicon.cjs && node scripts/make-icon.cjs",
+    "exe": "node scripts/make-exe.cjs"
+  },
+  "dependencies": {
+    "three": "^0.169.0",
+    "vue": "^3.5.12"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.1.4",
+    "vite": "^5.4.10"
+  }
+}

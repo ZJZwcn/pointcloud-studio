@@ -1,0 +1,32 @@
+# 依赖
+node_modules/
+
+# 构建产物
+dist/
+
+# 系统 / 编辑器
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.tmpdir/
+.vite/
+
+# 本地环境
+.env
+.env.local
+
+# 默认模型（几十 MB，不入库；见 public/models/README.md）
+public/models/*.glb
+public/models/*.gltf
+public/models/*.fbx
+public/models/*.obj
+public/models/*.stl
+public/models/*.ply
+public/models/*.bin
+public/models/*.zip
+!public/models/README.md
+
+# 打包产物
+*.zip
+/点云实验室.exe
